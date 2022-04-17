@@ -94,4 +94,17 @@ img{
 
 .footer{
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+  padding: 30px;
+  font-size: 1.125em;
+  color: #fff;
+  text-align: center;
+}
+.footer a{
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+}
+.footer a:hover{
+  text-decoration: underline;
 }

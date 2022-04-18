@@ -13,4 +13,4 @@ Um projeto desenvolvido durante o curso de grid da Origamid, pude colocar em prÃ
 
 ## ğŸš€ Link para o projeto
 
-- [Wilbeast](https://fabiomoura-m.github.io/Wilbeast/)
+- [Wilbeast](https://fabiomoura-m.github.io/Wildbeast/)

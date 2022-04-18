@@ -194,6 +194,7 @@ p{
   display: grid;
   align-content: start;
   gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 /* Footer */
@@ -212,4 +213,28 @@ p{
 }
 .footer a:hover{
   text-decoration: underline;
+}
+
+@media screen and (max-width:1200px){
+  .container-grid{
+  grid-template-areas: 
+    "header header header"
+    "sidenav content content"  
+    "sidenav anuncios anuncios"
+    "footer footer footer"
+  ;
+  }
+}
+
+@media screen and (max-width: 760px){
+  .container-grid{
+    grid-template-columns: 100%;
+    grid-template-areas: 
+      "header"
+      "sidenav"  
+      "content"
+      "anuncios"
+      "footer"
+    ;
+    }
 }
